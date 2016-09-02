@@ -1,0 +1,9 @@
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/MuriLOCO/ConfigData
+server:
+  port: 8001
