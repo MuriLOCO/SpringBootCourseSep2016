@@ -7,3 +7,8 @@ spring:
     name: lab-5-noun
   profiles:
     active: noun
+ # Allow Eureka to recognize two apps of the same type on the same host as separate instances:
+eureka:
+  instance:
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+

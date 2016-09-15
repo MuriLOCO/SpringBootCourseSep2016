@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>lab-4-subject</name>
+	<name>lab-5-subject</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
